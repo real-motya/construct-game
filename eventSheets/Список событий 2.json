@@ -1,0 +1,31 @@
+{
+	"name": "Список событий 2",
+	"events": [
+		{
+			"eventType": "include",
+			"includeSheet": "Список событий 1"
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 320903230624957
+				}
+			],
+			"actions": [
+				{
+					"id": "set-layout-scale",
+					"objectClass": "System",
+					"sid": 519518559715525,
+					"parameters": {
+						"scale": "0.5"
+					}
+				}
+			],
+			"sid": 166879170796451
+		}
+	],
+	"sid": 409685415740025
+}

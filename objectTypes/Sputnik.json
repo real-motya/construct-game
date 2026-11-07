@@ -1,0 +1,73 @@
+{
+	"name": "Sputnik",
+	"plugin-id": "Sprite",
+	"sid": 989778449230148,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "ItemType",
+			"type": "string",
+			"desc": "",
+			"show": false,
+			"sid": 738285464412326
+		},
+		{
+			"name": "dialogId",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 335248648777651
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 1280,
+						"height": 1280,
+						"originX": 0.13984375,
+						"originY": 0.30546875,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 1432628,
+						"collisionPoly": {
+							"points": [
+								0.21953125,
+								0.18984375,
+								0.76015625,
+								0.21015625,
+								0.88046875,
+								0.71015625,
+								0.76015625,
+								0.8,
+								0.33984375,
+								0.78046875,
+								0.23984375,
+								0.75,
+								0.11953125,
+								0.28984375
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 396193795629801,
+				"name": "Potion",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

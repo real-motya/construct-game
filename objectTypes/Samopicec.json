@@ -1,0 +1,79 @@
+{
+	"name": "Samopicec",
+	"plugin-id": "Sprite",
+	"sid": 416391261052203,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [
+		{
+			"name": "ItemType",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 662315846744544
+		},
+		{
+			"name": "dialogId",
+			"type": "string",
+			"desc": "",
+			"show": true,
+			"sid": 480654333326112
+		}
+	],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 200,
+						"height": 200,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"fileType": "image/png",
+						"imageSpriteId": 9991529,
+						"collisionPoly": {
+							"points": [
+								0.05,
+								0.16,
+								0.91,
+								0.16,
+								0.955,
+								0.205,
+								1,
+								0.345,
+								1,
+								0.565,
+								0.955,
+								0.84,
+								0.91,
+								0.88,
+								0.05,
+								0.88,
+								0,
+								0.835,
+								0,
+								0.205
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 306668957760505,
+				"name": "Potion",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

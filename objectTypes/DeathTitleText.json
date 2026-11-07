@@ -1,0 +1,10 @@
+{
+	"name": "DeathTitleText",
+	"plugin-id": "Text",
+	"sid": 145791842050133,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

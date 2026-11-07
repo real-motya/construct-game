@@ -1,0 +1,10 @@
+{
+	"name": "RespawnText",
+	"plugin-id": "Text",
+	"sid": 507061621139925,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}
