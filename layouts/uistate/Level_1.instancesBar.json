@@ -12,6 +12,14 @@
 			{
 				"sid": 211867961012569,
 				"expanded": true
+			},
+			{
+				"sid": 318689128317983,
+				"expanded": true
+			},
+			{
+				"sid": 217647770808147,
+				"expanded": true
 			}
 		],
 		"subfolders": []
@@ -35,6 +43,14 @@
 		},
 		{
 			"sid": 211867961012569,
+			"expanded": true
+		},
+		{
+			"sid": 318689128317983,
+			"expanded": true
+		},
+		{
+			"sid": 217647770808147,
 			"expanded": true
 		}
 	]

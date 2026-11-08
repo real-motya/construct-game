@@ -97,7 +97,7 @@
 					"type": "NPC",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "NPC1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -117,6 +117,40 @@
 						"y": 50.1463623046875,
 						"width": 8,
 						"height": 8,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "abyss",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 108,
+					"sid": 902432382329637,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"materialSurfaceType": "smooth",
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 113.47401428222656,
+						"y": 71.65569968140719,
+						"width": 29.46938259971654,
+						"height": 144.04813177856238,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -165,6 +199,51 @@
 			"overriden": 0,
 			"subLayers": [],
 			"instances": [
+				{
+					"type": "DialogPanel",
+					"properties": {
+						"initially-visible": true,
+						"origin": "top-left",
+						"wrap-horizontal": "repeat",
+						"wrap-vertical": "repeat",
+						"image-offset-x": 0,
+						"image-offset-y": 0,
+						"image-scale-x": 1,
+						"image-scale-y": 1,
+						"image-angle": 0,
+						"enable-tile-randomization": false,
+						"x-random": 1,
+						"y-random": 1,
+						"angle-random": 1,
+						"blend-margin-x": 0.1,
+						"blend-margin-y": 0.1
+					},
+					"uid": 128,
+					"sid": 433692648356833,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"materialSurfaceType": "smooth",
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 0,
+						"y": 35,
+						"width": 160,
+						"height": 110,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0,
+						"sampling": "nearest"
+					}
+				},
 				{
 					"type": "HUDText",
 					"properties": {
@@ -217,54 +296,9 @@
 					}
 				},
 				{
-					"type": "DialogPanel",
-					"properties": {
-						"initially-visible": true,
-						"origin": "top-left",
-						"wrap-horizontal": "repeat",
-						"wrap-vertical": "repeat",
-						"image-offset-x": 0,
-						"image-offset-y": 0,
-						"image-scale-x": 1,
-						"image-scale-y": 1,
-						"image-angle": 0,
-						"enable-tile-randomization": false,
-						"x-random": 1,
-						"y-random": 1,
-						"angle-random": 1,
-						"blend-margin-x": 0.1,
-						"blend-margin-y": 0.1
-					},
-					"uid": 128,
-					"sid": 433692648356833,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"materialSurfaceType": "smooth",
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 0.0163380606018535,
-						"y": 33.98337378448031,
-						"width": 160,
-						"height": 110,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0,
-						"sampling": "nearest"
-					}
-				},
-				{
 					"type": "DialogText",
 					"properties": {
-						"text": "Текст",
+						"text": "DialogText",
 						"enable-bbcode": true,
 						"font": "deltarune-8-bit-font-cyrillic",
 						"size": 8,
@@ -295,8 +329,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 0.0163380606018535,
-						"y": 35.98337378448031,
+						"x": 0,
+						"y": 45,
 						"width": 160,
 						"height": 100,
 						"originX": 0,
@@ -385,7 +419,7 @@
 				{
 					"type": "Choice1Text",
 					"properties": {
-						"text": "Да (Y)",
+						"text": "Да",
 						"enable-bbcode": true,
 						"font": "deltarune-8-bit-font-cyrillic",
 						"size": 8,
@@ -436,7 +470,7 @@
 				{
 					"type": "Choice2Text",
 					"properties": {
-						"text": "Нет (N)",
+						"text": "Нет",
 						"enable-bbcode": true,
 						"font": "deltarune-8-bit-font-cyrillic",
 						"size": 8,
@@ -534,7 +568,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": true,
+					"showing": false,
 					"locked": false,
 					"world": {
 						"x": 80.01633806060185,
@@ -585,7 +619,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": true,
+					"showing": false,
 					"locked": false,
 					"world": {
 						"x": 46.01633806060185,
@@ -620,7 +654,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": true,
+					"showing": false,
 					"locked": false,
 					"world": {
 						"x": 80.01633806060185,
@@ -655,7 +689,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": true,
+					"showing": false,
 					"locked": false,
 					"world": {
 						"x": 80.01633806060185,
@@ -706,7 +740,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": true,
+					"showing": false,
 					"locked": false,
 					"world": {
 						"x": -16.72329597641597,
@@ -757,7 +791,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": true,
+					"showing": false,
 					"locked": false,
 					"world": {
 						"x": -20.702419568792678,
@@ -792,7 +826,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": true,
+					"showing": false,
 					"locked": false,
 					"world": {
 						"x": 26.837669084771775,
@@ -801,6 +835,57 @@
 						"height": 32,
 						"originX": 0.5,
 						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0,
+						"sampling": "nearest"
+					}
+				},
+				{
+					"type": "DialogNameText",
+					"properties": {
+						"text": "DialogNameText",
+						"enable-bbcode": true,
+						"font": "deltarune-8-bit-font-cyrillic",
+						"size": 6,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							0.9176470588235294,
+							0,
+							1
+						],
+						"horizontal-alignment": "center",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 74,
+					"sid": 552415174613115,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"materialSurfaceType": "smooth",
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 0,
+						"y": 35,
+						"width": 160,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
 						"color": [
 							1,
 							1,
