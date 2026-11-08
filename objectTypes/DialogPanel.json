@@ -2,7 +2,7 @@
 	"name": "DialogPanel",
 	"plugin-id": "TiledBg",
 	"sid": 561195274503445,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

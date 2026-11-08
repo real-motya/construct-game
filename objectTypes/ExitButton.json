@@ -2,7 +2,7 @@
 	"name": "ExitButton",
 	"plugin-id": "Sprite",
 	"sid": 294314840000937,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

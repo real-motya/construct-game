@@ -2,7 +2,7 @@
 	"name": "ExitText",
 	"plugin-id": "Text",
 	"sid": 179960158867205,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

@@ -2,7 +2,7 @@
 	"name": "DialogChoice2",
 	"plugin-id": "Sprite",
 	"sid": 378456685936382,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

@@ -2,7 +2,7 @@
 	"name": "RespawnButton",
 	"plugin-id": "Sprite",
 	"sid": 497358227614650,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

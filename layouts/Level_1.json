@@ -7,111 +7,47 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Enemy",
+					"type": "TilemapLevel_1",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
+						"tile-width": 8,
+						"tile-height": 8,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0,
+						"tile-x-drawing-offset": 0,
+						"tile-y-drawing-offset": 0,
+						"drawing-mode": "top-to-right"
 					},
-					"uid": 157,
-					"sid": 316615498535060,
+					"uid": 156,
+					"sid": 727815653027255,
 					"tags": "",
 					"instanceVariables": {},
 					"behaviors": {},
+					"ownData": {
+						"tilemapData": {
+							"width": 64,
+							"height": 64,
+							"max-width": 145,
+							"max-height": 121,
+							"data": "18x96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,96,16x0,96,103x0,18x96,15228x0"
+						},
+						"tile-width": 8,
+						"tile-height": 8,
+						"tile-x-offset": 0,
+						"tile-y-offset": 0,
+						"tile-x-spacing": 0,
+						"tile-y-spacing": 0
+					},
 					"materialSurfaceType": "smooth",
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 704,
-						"y": 256,
-						"width": 32,
-						"height": 32,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
-					"type": "InvisibleWall",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 158,
-					"sid": 772977221431179,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"materialSurfaceType": "smooth",
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 640,
-						"y": 256,
-						"width": 48.46938259971654,
-						"height": 273.53709286292775,
-						"originX": 0.5,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
-					"type": "HUDText",
-					"properties": {
-						"text": "Текст",
-						"enable-bbcode": true,
-						"font": "Arial",
-						"size": 12,
-						"line-height": 0,
-						"bold": false,
-						"italic": false,
-						"color": [
-							0,
-							0,
-							0,
-							1
-						],
-						"horizontal-alignment": "left",
-						"vertical-alignment": "top",
-						"wrapping": "word",
-						"text-direction": "ltr",
-						"icon-set": -1,
-						"initially-visible": true,
-						"origin": "top-left",
-						"read-aloud": false
-					},
-					"uid": 159,
-					"sid": 238947193683750,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {},
-					"materialSurfaceType": "smooth",
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 32,
-						"y": 32,
-						"width": 480,
-						"height": 96,
+						"x": 0,
+						"y": 0,
+						"width": 512,
+						"height": 512,
 						"originX": 0,
 						"originY": 0,
 						"color": [
@@ -120,34 +56,67 @@
 							1,
 							1
 						],
-						"z": 0,
-						"angle": 0
+						"z": 0
 					}
 				},
 				{
-					"type": "Item",
+					"type": "NPC",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Potion",
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 156,
-					"sid": 533428368137239,
+					"uid": 126,
+					"sid": 459004112048999,
 					"tags": "",
 					"instanceVariables": {
-						"ItemType": "Potion"
+						"dialogId": "npc_1"
 					},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 384,
-						"y": 224,
-						"width": 20,
-						"height": 20,
+						"x": 98.16161346435547,
+						"y": 71.0069808959961,
+						"width": 8,
+						"height": 8,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Enemy",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 127,
+					"sid": 211867961012569,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"materialSurfaceType": "smooth",
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 124.94441223144531,
+						"y": 32.264583587646484,
+						"width": 8,
+						"height": 8,
 						"originX": 0.5,
 						"originY": 0.5,
 						"color": [
@@ -192,8 +161,8 @@
 			"global": false
 		},
 		{
-			"name": "DeathUI",
-			"overriden": 1,
+			"name": "GUI",
+			"overriden": 0,
 			"subLayers": [],
 			"instances": [],
 			"sid": 679584410482906,
@@ -217,23 +186,23 @@
 			"sampling": "auto",
 			"parallaxX": 0,
 			"parallaxY": 0,
-			"scaleRate": 0.01,
+			"scaleRate": 1,
 			"forceOwnTexture": false,
 			"renderingMode": "3d",
 			"drawOrder": "z-order",
 			"useRenderCells": false,
 			"blendMode": "normal",
 			"zElevation": 0,
-			"global": false
+			"global": true
 		}
 	],
 	"sid": 778854430370086,
 	"nonworld-instances": [],
 	"effectTypes": [],
-	"width": 1600,
-	"height": 1200,
+	"width": 512,
+	"height": 512,
 	"unboundedScrolling": false,
-	"sampling": "auto",
+	"sampling": "nearest",
 	"ambientLight": 0.03,
 	"vpX": 0.5,
 	"vpY": 0.5,

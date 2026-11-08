@@ -2,7 +2,7 @@
 	"name": "DeathTitleText",
 	"plugin-id": "Text",
 	"sid": 145791842050133,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

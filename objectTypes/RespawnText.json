@@ -2,7 +2,7 @@
 	"name": "RespawnText",
 	"plugin-id": "Text",
 	"sid": 507061621139925,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

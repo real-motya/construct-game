@@ -2,7 +2,7 @@
 	"name": "DeathPanel",
 	"plugin-id": "Sprite",
 	"sid": 334238158272149,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

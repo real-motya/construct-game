@@ -2,7 +2,7 @@
 	"name": "DialogText",
 	"plugin-id": "Text",
 	"sid": 920551447748538,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

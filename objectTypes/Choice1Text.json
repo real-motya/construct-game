@@ -2,7 +2,7 @@
 	"name": "Choice1Text",
 	"plugin-id": "Text",
 	"sid": 558002775103804,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

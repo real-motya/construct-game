@@ -1,8 +1,8 @@
 {
 	"name": "HUDText",
 	"plugin-id": "Text",
-	"sid": 713904236215253,
-	"isGlobal": false,
+	"sid": 599816990108694,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],
