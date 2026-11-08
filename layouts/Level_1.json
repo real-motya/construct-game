@@ -63,7 +63,7 @@
 					"type": "NPC",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "NPC1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -79,8 +79,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 98.16161346435547,
-						"y": 71.0069808959961,
+						"x": 64.06468963623047,
+						"y": 72.21855163574219,
 						"width": 8,
 						"height": 8,
 						"originX": 0.5,
@@ -99,7 +99,7 @@
 					"type": "Enemy",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "Enemy0",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
@@ -115,6 +115,78 @@
 					"world": {
 						"x": 124.94441223144531,
 						"y": 32.264583587646484,
+						"width": 8,
+						"height": 8,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Door",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 106,
+					"sid": 318689128317983,
+					"tags": "",
+					"instanceVariables": {
+						"requiredItem": "Key1"
+					},
+					"behaviors": {},
+					"materialSurfaceType": "smooth",
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 130.98346710205078,
+						"y": 72.12818908691406,
+						"width": 8,
+						"height": 8,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "Item",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Key1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 107,
+					"sid": 217647770808147,
+					"tags": "",
+					"instanceVariables": {
+						"ItemType": "Key1"
+					},
+					"behaviors": {},
+					"materialSurfaceType": "smooth",
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 96.21296691894531,
+						"y": 71.90010833740234,
 						"width": 8,
 						"height": 8,
 						"originX": 0.5,
