@@ -1,0 +1,10 @@
+{
+	"name": "TempText1",
+	"plugin-id": "Text",
+	"sid": 325041227866012,
+	"isGlobal": false,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

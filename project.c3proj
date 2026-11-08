@@ -33,6 +33,13 @@
 			"name": "Tilemap",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "solid",
+			"name": "Solid",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "z5ne8ta6vmx",
@@ -70,7 +77,8 @@
 			"NPC",
 			"TilemapLevel_0",
 			"DialogNameText",
-			"Door"
+			"Door",
+			"TempText1"
 		],
 		"subfolders": []
 	},
@@ -218,7 +226,7 @@
 	},
 	"properties": {
 		"description": "",
-		"version": "1.0.0.0",
+		"version": "3.1",
 		"autoIncrementVersion": false,
 		"author": "",
 		"authorEmail": "",
