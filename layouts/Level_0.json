@@ -568,7 +568,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": false,
+					"showing": true,
 					"locked": false,
 					"world": {
 						"x": 80.01633806060185,
@@ -619,7 +619,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": false,
+					"showing": true,
 					"locked": false,
 					"world": {
 						"x": 46.01633806060185,
@@ -654,7 +654,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": false,
+					"showing": true,
 					"locked": false,
 					"world": {
 						"x": 80.01633806060185,
@@ -689,7 +689,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": false,
+					"showing": true,
 					"locked": false,
 					"world": {
 						"x": 80.01633806060185,
@@ -740,7 +740,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": false,
+					"showing": true,
 					"locked": false,
 					"world": {
 						"x": -16.72329597641597,
@@ -791,7 +791,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": false,
+					"showing": true,
 					"locked": false,
 					"world": {
 						"x": -20.702419568792678,
@@ -826,7 +826,7 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"materialSurfaceType": "smooth",
-					"showing": false,
+					"showing": true,
 					"locked": false,
 					"world": {
 						"x": 26.837669084771775,
