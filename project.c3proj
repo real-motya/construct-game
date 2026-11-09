@@ -91,7 +91,6 @@
 	},
 	"layouts": {
 		"items": [
-			"Game",
 			"DeathScreen",
 			"Level_0",
 			"Level_1",
@@ -282,5 +281,5 @@
 	},
 	"viewportWidth": 160,
 	"viewportHeight": 144,
-	"firstLayout": null
+	"firstLayout": "Level_0"
 }
