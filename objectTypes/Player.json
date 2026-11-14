@@ -2,10 +2,16 @@
 	"name": "Player",
 	"plugin-id": "Sprite",
 	"sid": 888377879965789,
-	"isGlobal": true,
+	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
-	"behaviorTypes": [],
+	"behaviorTypes": [
+		{
+			"behaviorId": "TileMovement",
+			"name": "TileMovement",
+			"sid": 197801705461398
+		}
+	],
 	"effectTypes": [],
 	"animations": {
 		"items": [
@@ -14,8 +20,8 @@
 					{
 						"width": 252,
 						"height": 252,
-						"originX": 0.5,
-						"originY": 0.5,
+						"originX": 0,
+						"originY": 0,
 						"originalSource": "",
 						"exportFormat": "lossless",
 						"exportQuality": 0.8,

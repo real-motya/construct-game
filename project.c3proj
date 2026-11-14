@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "TileMovement",
+			"name": "Tile movement",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "solid",
 			"name": "Solid",
 			"author": "Scirra",
@@ -53,7 +60,6 @@
 			"Текст",
 			"TiledBackground",
 			"TiledBackground2",
-			"InvisibleWall",
 			"Samopicec",
 			"Sputnik",
 			"DialogPanel",
@@ -78,7 +84,9 @@
 			"TilemapLevel_0",
 			"DialogNameText",
 			"Door",
-			"TempText1"
+			"TempText1",
+			"CollisionMap",
+			"Blocker"
 		],
 		"subfolders": []
 	},
