@@ -1,7 +1,7 @@
 {
-	"name": "Text",
+	"name": "HintText",
 	"plugin-id": "Text",
-	"sid": 748633606152160,
+	"sid": 112819697348457,
 	"isGlobal": false,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],

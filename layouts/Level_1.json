@@ -39,7 +39,7 @@
 							"height": 64,
 							"max-width": 64,
 							"max-height": 64,
-							"data": "80hv,18x3hd,80hd,85,43x0,3hv,4x51,4,13x51,3hv,86,43x0,3hv,4x51,4,13x51,3hv,86,43x0,3hv,4x51,4,13x51,3hv,86,43x0,3hv,4x51,4,5x51,32vd,3x3hd,32hv,3x51,3hv,86,43x0,3hv,4x51,4,5x51,4,3x51,4,2x3hd,65hv,3hv,86,43x0,3hv,4x51,4,5x51,4,3x51,4,3x51,3hv,86,43x0,3hv,4x51,4,5x51,4,3x51,4,3x51,3hv,86,43x0,3hv,4x51,4,5x51,4,3x51,4,3x51,3hv,86,43x0,3hv,4x51,4,5x51,4,3x51,4,3x51,3hv,86,43x0,3hv,4x51,4,5x51,4,3x51,4,3x51,3hv,87,43x0,3hv,4x51,4,5x47,4,3x51,4,3x51,3hv,86,43x0,3hv,4x51,4,5x51,4,3x51,4,3x51,3hv,87,43x0,3hv,4x51,4,5x51,4,3x51,4,3x51,3hv,88,43x0,3hv,4x51,4,5x51,4,3x51,4,3x51,3hv,89,43x0,3hv,4x51,4,5x51,4,3x51,4,3x51,3hv,89,43x0,3hv,10x51,4,7x51,3hv,89,43x0,3hv,10x51,4,7x51,3hv,89,43x0,3hv,10x51,4,7x51,3hv,89,43x0,3hv,10x51,4,7x51,3hv,89,43x0,80vd,7x3hd,42,2x3hd,4,7x3hd,80,90,43x0,31,43,55,67,12x43,55,2x67,79,91,43x0,32,44,56,68,12x44,56,2x68,80,92,2667x0"
+							"data": "80hv,18x3hd,80hd,85,43x0,3hv,4x51,4,10x51,38,50,62,3hv,86,43x0,3hv,51,38,50,62,4,10x51,39,51,63,3hv,86,43x0,3hv,51,39,51,63,4,10x51,40,52,64,3hv,86,43x0,3hv,51,40,52,64,4,5x51,32vd,3x3hd,32hv,41,53,65,3hv,86,43x0,3hv,51,41,53,65,4,5x51,4,3x51,4,2x3hd,65hv,3hv,86,43x0,3hv,51,41,53,65,4,38,50,62,2x51,4,3x51,4,38,50,62,3hv,86,43x0,3hv,51,41,53,65,4,38,50,62,2x51,4,3x51,4,38,50,62,3hv,86,43x0,3hv,51,41,53,65,4,38,50,62,2x51,4,3x51,4,38,50,62,3hv,86,43x0,3hv,51,41,53,65,4,38,50,62,2x51,4,3x51,4,38,50,62,3hv,86,43x0,3hv,51,41,53,65,4,38,50,62,2x51,4,3x51,4,38,50,62,3hv,87,43x0,3hv,51,41,53,65,4,2x38,50,62,47,4,3x51,4,38,50,62,3hv,86,43x0,3hv,51,41,53,65,4,39,38,50,62,51,4,3x51,4,39,51,63,3hv,87,43x0,3hv,51,41,53,65,4,40,38,50,62,51,4,3x51,4,40,52,64,3hv,88,43x0,3hv,51,41,53,65,4,41,38,50,62,51,4,3x51,4,41,53,65,3hv,89,43x0,3hv,51,41,53,65,4,51,2x38,50,62,4,3x51,4,3x51,3hv,89,43x0,3hv,51,41,53,65,3x62,50,2x62,4,7x51,3hv,89,43x0,3hv,51,41,53,65,3x63,51,2x63,4,7x51,3hv,89,43x0,3hv,51,41,53,65,3x64,52,2x64,4,7x51,3hv,89,43x0,3hv,51,41,53,4x65,53,2x65,4,7x51,3hv,89,43x0,80vd,7x3hd,42,2x3hd,4,7x3hd,80,90,43x0,31,43,55,67,12x43,55,2x67,79,91,43x0,32,44,56,68,12x44,56,2x68,80,92,2667x0"
 						},
 						"tile-width": 8,
 						"tile-height": 8,
@@ -88,8 +88,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 32,
-						"y": 56,
+						"x": 59.04451942443848,
+						"y": 76.05798149108887,
 						"width": 8,
 						"height": 8,
 						"originX": 0,
@@ -161,8 +161,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 48,
-						"y": 104,
+						"x": 75.38538360595703,
+						"y": 51.03408241271973,
 						"width": 8,
 						"height": 8,
 						"originX": 0,
@@ -203,14 +203,26 @@
 								"default-controls": false,
 								"isometric": false
 							}
+						},
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-8",
+								"set-angle": "smooth",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
 						}
 					},
 					"materialSurfaceType": "smooth",
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 16,
-						"y": 56,
+						"x": 18.25382423400879,
+						"y": 17.121681213378906,
 						"width": 8,
 						"height": 8,
 						"originX": 0,
@@ -226,121 +238,29 @@
 					}
 				},
 				{
-					"type": "Blocker",
+					"type": "Enemy",
 					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 4,
-					"sid": 252772634563929,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
-							}
-						}
-					},
-					"materialSurfaceType": "smooth",
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 0,
-						"y": 0,
-						"width": 8,
-						"height": 160,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
-					"type": "Blocker",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 5,
-					"sid": 557693930305595,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
-							}
-						}
-					},
-					"materialSurfaceType": "smooth",
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 160,
-						"y": -8,
-						"width": 8,
-						"height": 72,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 0
-					}
-				},
-				{
-					"type": "Blocker",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
+						"initially-visible": true,
+						"initial-animation": "Enemy0",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 6,
-					"sid": 581201922069540,
+					"sid": 203123737846712,
 					"tags": "",
 					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
-							}
-						}
-					},
+					"behaviors": {},
 					"materialSurfaceType": "smooth",
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 160,
-						"y": 72,
+						"x": 105.29274048454259,
+						"y": 65.68330063468908,
 						"width": 8,
-						"height": 88,
-						"originX": 0,
-						"originY": 0,
+						"height": 8,
+						"originX": 0.5,
+						"originY": 0.5,
 						"color": [
 							1,
 							1,
@@ -349,132 +269,6 @@
 						],
 						"z": 0,
 						"angle": 0
-					}
-				},
-				{
-					"type": "Blocker",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 7,
-					"sid": 363526452865632,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
-							}
-						}
-					},
-					"materialSurfaceType": "smooth",
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 128,
-						"y": 40,
-						"width": 8,
-						"height": 120,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 1.5707963267948966
-					}
-				},
-				{
-					"type": "Blocker",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 3,
-					"sid": 502000336732548,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
-							}
-						}
-					},
-					"materialSurfaceType": "smooth",
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 160,
-						"y": 152,
-						"width": 8,
-						"height": 152,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 1.5707963267948966
-					}
-				},
-				{
-					"type": "Blocker",
-					"properties": {
-						"initially-visible": false,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 8,
-					"sid": 160731185523716,
-					"tags": "",
-					"instanceVariables": {},
-					"behaviors": {
-						"Solid": {
-							"properties": {
-								"enabled": true,
-								"use-instance-tags": true,
-								"tags": ""
-							}
-						}
-					},
-					"materialSurfaceType": "smooth",
-					"showing": true,
-					"locked": false,
-					"world": {
-						"x": 160,
-						"y": 0,
-						"width": 8,
-						"height": 152,
-						"originX": 0,
-						"originY": 0,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"z": 0,
-						"angle": 1.5707963267948966
 					}
 				}
 			],
@@ -512,7 +306,142 @@
 			"name": "GUI",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "BattleText",
+					"properties": {
+						"text": "BattleText",
+						"enable-bbcode": true,
+						"font": "deltarune-8-bit-font-cyrillic",
+						"size": 8,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 3,
+					"sid": 907906714577918,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"materialSurfaceType": "smooth",
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 236.83250045776367,
+						"y": 13.783580780029297,
+						"width": 112.77921099871801,
+						"height": 33.71904242421364,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "BattlePanel",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 4,
+					"sid": 690587773714504,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"materialSurfaceType": "smooth",
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 218.02970933914185,
+						"y": 43.19258010387421,
+						"width": 8,
+						"height": 8,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				},
+				{
+					"type": "HintText",
+					"properties": {
+						"text": "HintText",
+						"enable-bbcode": true,
+						"font": "deltarune-8-bit-font-cyrillic",
+						"size": 8,
+						"line-height": 0,
+						"bold": false,
+						"italic": false,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"horizontal-alignment": "left",
+						"vertical-alignment": "top",
+						"wrapping": "word",
+						"text-direction": "ltr",
+						"icon-set": -1,
+						"initially-visible": true,
+						"origin": "top-left",
+						"read-aloud": false
+					},
+					"uid": 5,
+					"sid": 450448403804679,
+					"tags": "",
+					"instanceVariables": {},
+					"behaviors": {},
+					"materialSurfaceType": "smooth",
+					"showing": true,
+					"locked": false,
+					"world": {
+						"x": 238.20338439941406,
+						"y": 61.56269836425781,
+						"width": 200,
+						"height": 30,
+						"originX": 0,
+						"originY": 0,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"z": 0,
+						"angle": 0
+					}
+				}
+			],
 			"sid": 679584410482906,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
@@ -555,5 +484,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Список событий 1"
+	"eventSheet": "Event Main"
 }

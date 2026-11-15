@@ -10,6 +10,11 @@
 			"behaviorId": "TileMovement",
 			"name": "TileMovement",
 			"sid": 197801705461398
+		},
+		{
+			"behaviorId": "EightDir",
+			"name": "8Direction",
+			"sid": 992550162318640
 		}
 	],
 	"effectTypes": [],
