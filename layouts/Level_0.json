@@ -94,7 +94,7 @@
 					}
 				},
 				{
-					"type": "TempText1",
+					"type": "AbyssText",
 					"properties": {
 						"text": "ОБРЫВ",
 						"enable-bbcode": true,
@@ -127,8 +127,8 @@
 					"showing": true,
 					"locked": false,
 					"world": {
-						"x": 187.32455444335938,
-						"y": 16.17946358747993,
+						"x": 192,
+						"y": 17,
 						"width": 18.31407005666648,
 						"height": 110.95852835261509,
 						"originX": 0,
@@ -168,6 +168,18 @@
 								"enabled": true,
 								"default-controls": false,
 								"isometric": false
+							}
+						},
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-8",
+								"set-angle": "smooth",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
 							}
 						}
 					},
@@ -969,5 +981,5 @@
 	"vpX": 0.5,
 	"vpY": 0.5,
 	"projection": "perspective",
-	"eventSheet": "Список событий 2"
+	"eventSheet": "Event Main"
 }

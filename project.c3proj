@@ -36,6 +36,13 @@
 		},
 		{
 			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
 			"id": "TileMovement",
 			"name": "Tile movement",
 			"author": "Scirra",
@@ -57,7 +64,6 @@
 			"Enemy",
 			"Item",
 			"ТайловыйФон",
-			"Текст",
 			"TiledBackground",
 			"TiledBackground2",
 			"Samopicec",
@@ -69,7 +75,6 @@
 			"DialogChoice2",
 			"Choice1Text",
 			"Choice2Text",
-			"Text",
 			"DeathPanel",
 			"DeathTitleText",
 			"RespawnButton",
@@ -84,9 +89,12 @@
 			"TilemapLevel_0",
 			"DialogNameText",
 			"Door",
-			"TempText1",
+			"AbyssText",
 			"CollisionMap",
-			"Blocker"
+			"Blocker",
+			"BattleText",
+			"BattlePanel",
+			"HintText"
 		],
 		"subfolders": []
 	},
@@ -102,15 +110,15 @@
 			"DeathScreen",
 			"Level_0",
 			"Level_1",
-			"MainMenu"
+			"MainMenu",
+			"Battle"
 		],
 		"subfolders": []
 	},
 	"eventSheets": {
 		"items": [
-			"Список событий 1",
-			"Список событий 2",
-			"Event Level_1"
+			"Event Main",
+			"Event Battle"
 		],
 		"subfolders": []
 	},
