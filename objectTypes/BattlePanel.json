@@ -2,7 +2,7 @@
 	"name": "BattlePanel",
 	"plugin-id": "Sprite",
 	"sid": 941579313647238,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],

@@ -1,0 +1,10 @@
+{
+	"name": "InvText",
+	"plugin-id": "Text",
+	"sid": 102884069768596,
+	"isGlobal": true,
+	"editorNewInstanceIsReplica": true,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": []
+}

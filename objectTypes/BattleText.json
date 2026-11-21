@@ -2,7 +2,7 @@
 	"name": "BattleText",
 	"plugin-id": "Text",
 	"sid": 587383469504513,
-	"isGlobal": false,
+	"isGlobal": true,
 	"editorNewInstanceIsReplica": true,
 	"instanceVariables": [],
 	"behaviorTypes": [],
